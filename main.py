@@ -7,7 +7,8 @@ import openai
 
 load_dotenv()
 
-openai.api_key = os.getenv('API_KEY')
+# openai.api_key = os.getenv('API_KEY')
+openai.api_key = "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"
 
 welcomeText = "welcome, my name is monica, I am your personal assistant based on chatGPT, ask me anything"
 line1 = welcomeText
