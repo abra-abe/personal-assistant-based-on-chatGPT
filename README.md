@@ -11,11 +11,11 @@ but first things first make sure that you have an openai account then generate a
 you can follow this link to generate the API key https://platform.openai.com/account/api-keys
 after generating the key and copying it, go to main.py and comment out the following lines of code
 
-  from dotenv import load_dotenv
-  .
-  .
-  .
-  load_dotenv()
+      from dotenv import load_dotenv
+      /
+      /
+      /
+      load_dotenv()
   
   then in line number 10 delete 'os.getenv('API-KEY')' and replace it with the API key you have generated
   therefore it will appear as follows:
